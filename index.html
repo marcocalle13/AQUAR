@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="AQUAR - PILAR DE VIDA"
+      content="Sitio web sobre el negocio de una planta purificadora de agua. Contiene información relevante sobre los productos del negocio."
+    />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+    <!-- <script src="js/slider.js"></script> -->
+
+    <title> AQUAR &mdash; Pilar de Vida</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Negocio logo" src="img/logo-sin-fondo.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">Inicio</a></li>
+          <li><a class="main-nav-link" href="#services">Catálogo</a></li>
+          <li>
+            <a class="main-nav-link" href="#map">Contacto</a>
+          </li>
+          <li><a class="main-nav-link nav-cta" href="#services">Compra ahora</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary hero-title">
+              Agua purificada de la más alta calidad para tu hogar
+            </h1>
+            <p class="hero-description">
+              Disfruta de agua segura, fresca y certificada con entregas rápidas a domicilio. Cuidamos de tu bienestar con procesos de purificación que cumplen los más altos estándares de calidad
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Compra ahora</a
+            >
+
+            <a href="#how" class="btn btn--outline">Más información &darr;</a>
+          </div>
+          <div class="hero-img-box"></div>
+        </div>
+      </section>      
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">Compra ahora</span>
+          <h2 class="heading-secondary">Agua purificada en 3 simples pasos</h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">
+              Contáctanos por WhatsApp
+            </h3>
+            <p class="step-description">
+              Reserva tu consulta por llamada telefónica, WhatsApp o mediante nuestro formulario en línea.
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img
+              src="img/app/section-how-1.png"
+              class="step-img"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box">
+            <img
+              src="img/app/section-how-2.png"
+              class="step-img-2"
+              alt="iPhone app
+            meal approving plan screen"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">
+              Elige la cantidad y la presentación que requieres
+            </h3>
+            <p class="step-description">
+              Puedes observar nuestro catálogo y consultar precios
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Recibe el agua en tu casa</h3>
+            <p class="step-description">
+              Uno de nuestros asesores se pondrá de acuerdo con usted para la entrega.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/app/section-how-3.png"
+              class="step-img-3"
+              alt="iPhone app
+            delivery screen"
+            />
+          </div>
+        </div>
+      </section>
+      
+
+
+       <section class="section-services" id="services">
+      <div class="container">
+        <span class="subheading"> Nuestros productos </span>
+
+        <h2 class="heading-secondary">
+         Escoge el plan que más se adapte a tu necesidad
+        </h2>
+
+        <div class="services-slider">       
+
+          <button class="slider-btn slider-btn-left">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+          </button>
+
+          <div class="slider-window">          
+
+            <div class="slider-track">            
+
+              <article class="service-card">
+                <img
+                  src="img/services/botellon-llave-20L.jpeg"
+                  alt="Ortodoncia"
+                  class="service-img"
+                />
+
+                <div class="service-content">
+                  <h3 class="service-title">Botellón 20l con llave</h3>
+
+                  <p class="plan-price"> $9.50</p>                
+                    <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="shield-checkmark-outline"
+                  ></ion-icon>
+                  <span> Recarga en el establecimiento por $2</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="home-outline"></ion-icon>
+                  <span>Entrega a domicilio por $2.50</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="happy-outline"
+                  ></ion-icon>
+                  <span>Lleva 
+                    2 x $17
+                  </span>
+                </li>                
+              </ul>                
+
+                </div>
+              </article>      
+
+              
+              <article class="service-card">
+                <img
+                  src="img/services/botellon-llave-10L.jpeg"
+                  alt="Implantes Dentales"
+                  class="service-img"
+                />
+
+                <div class="service-content">
+                  <h3 class="service-title">Botellón 10l con llave</h3>
+
+                  <p class="plan-price"> $6.50</p>                
+                  <ul class="meal-attributes">
+                    <li class="meal-attribute">
+                      <ion-icon
+                        class="meal-icon"
+                        name="shield-checkmark-outline"
+                      ></ion-icon>
+                      <span> Recarga en el establecimiento por $1</span>
+                    </li>
+                    <li class="meal-attribute">
+                      <ion-icon class="meal-icon" name="home-outline"></ion-icon>
+                      <span>Entrega a domicilio por $1.50</span>
+                    </li>
+                    <li class="meal-attribute">
+                      <ion-icon
+                        class="meal-icon"
+                        name="happy-outline"
+                      ></ion-icon>
+                      <span>Lleva 
+                        2 x $11
+                      </span>
+                    </li>                
+                </ul>
+                </div>
+              </article>                                
+
+              <article class="service-card">
+                <img
+                  src="img/services/botellon-20L.jpeg"
+                  alt="Carillas"
+                  class="service-img"
+                />
+
+                <div class="service-content">
+                  <h3 class="service-title">Botellón 20l</h3>
+
+                  <br><br>
+                  <br><br>
+
+                  <p class="plan-price"> $8.50</p>                
+                    <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="shield-checkmark-outline"
+                  ></ion-icon>
+                  <span> Recarga en el establecimiento por $2</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="home-outline"></ion-icon>
+                  <span>Entrega a domicilio por $2.50</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="happy-outline"
+                  ></ion-icon>
+                  <span>Lleva 
+                    2 x $15
+                  </span>
+                </li>                
+              </ul>  
+
+                </div>
+              </article>
+
+              <article class="service-card">
+                <img
+                  src="img/services/botellon-10L.jpeg"
+                  alt="Endodoncia"
+                  class="service-img"
+                />
+
+                <div class="service-content">
+                  <h3 class="service-title">Botellón 10l</h3>
+
+                  <br><br>
+                  <br><br>
+
+                  <p class="plan-price"> $5.50</p>                
+                  <ul class="meal-attributes">
+                    <li class="meal-attribute">
+                      <ion-icon
+                        class="meal-icon"
+                        name="shield-checkmark-outline"
+                      ></ion-icon>
+                      <span> Recarga en el establecimiento por $1</span>
+                    </li>
+                    <li class="meal-attribute">
+                      <ion-icon class="meal-icon" name="home-outline"></ion-icon>
+                      <span>Entrega a domicilio por $1.50</span>
+                    </li>
+                    <li class="meal-attribute">
+                      <ion-icon
+                        class="meal-icon"
+                        name="happy-outline"
+                      ></ion-icon>
+                      <span>Lleva 
+                        2 x $9
+                      </span>
+                    </li>                
+                </ul>
+                </div>
+              </article>                                    
+               
+              </div>
+          </div>
+
+          <button class="slider-btn slider-btn-right">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class = "section-process">
+       <div class="container">
+
+          <span class="subheading">PROCESO DE PURIFICACIÓN</span>
+          <h2 class="heading-secondary">Nuestro estándar de calidad</h2> 
+
+          <div class = "process-window">         
+          <!-- <div class="process-container"> -->
+
+          <button class="slider-btn slider-btn-left ">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+          </button>
+
+          <div class="card-process hidden">    
+           <div class="process-img">
+            <img
+              src="img/process/step-1.jpeg"
+              class=""
+              alt="iPhone app
+            delivery screen"
+            />
+            </div>
+            <div class="process-text-container">              
+            <p class = "process-number"> 1 </p>
+            <h3 class="process-title"> Filtro ZeoMedia </h3>
+            <p class="process-text"> Elimina arena, sedimentos, lodo y partículas en suspensión, proporcionando un agua mucho más limpia antes de continuar con las siguientes etapas de purificación.</p>
+            </div>
+          </div>            
+
+          <div class="card-process hidden">    
+           <div class="process-img">
+            <img
+              src="img/process/step-2.jpeg"
+              class=""
+              alt="iPhone app
+            delivery screen"
+            />
+            </div>
+            <div class="process-text-container">              
+            <p class = "process-number"> 2 </p>
+            <h3 class="process-title"> Carbón Activo </h3>
+            <p class="process-text"> Remueve el cloro y contaminantes orgánicos para ofrecer un agua más pura, fresca y de mejor sabor.</p>
+            </div>
+          </div> 
+
+          <div class="card-process hidden">    
+           <div class="process-img">
+            <img
+              src="img/process/step-3.jpeg"
+              class=""
+              alt="iPhone app
+            delivery screen"
+            />
+            </div>
+            <div class="process-text-container">              
+            <p class = "process-number"> 3 </p>
+            <h3 class="process-title"> Ablandador </h3>
+            <p class="process-text"> Nuestro sistema de ablandamiento elimina los minerales que generan sarro, optimizando la calidad del agua y el rendimiento de todo el proceso de purificación.</p>
+            </div>
+          </div>
+          
+          <div class="card-process hidden">    
+           <div class="process-img">
+            <img
+              src="img/process/step-4.jpeg"
+              class=""
+              alt="iPhone app
+            delivery screen"
+            />
+            </div>
+            <div class="process-text-container">              
+            <p class = "process-number"> 4 </p>
+            <h3 class="process-title"> Pulidores </h3>
+            <p class="process-text"> 
+              <strong>Polipropileno:</strong> Elimina partículas microscópicas que hayan pasado por las etapas iniciales, asegurando una filtración de alta precisión.
+              <br/>
+              <br/>
+              <strong>Carbón:</strong> Elimina partículas microscópicas que hayan pasado por las etapas iniciales, asegurando una filtración de alta precisión.</p>
+            </div>
+          </div> 
+
+          <div class="card-process hidden">    
+           <div class="process-img">
+            <img
+              src="img/process/step-7.jpeg"
+              class=""
+              alt="iPhone app
+            delivery screen"
+            />
+            </div>
+            <div class="process-text-container">              
+            <p class = "process-number"> 5 </p>
+            <h3 class="process-title"> Ósmosis Inversa </h3>
+            <p class="process-text"> El agua es impulsada a alta presión a través de una membrana semipermeable que retiene hasta el 99% de las sales disueltas, metales pesados, microorganismos y otros contaminantes, obteniendo un agua de alta pureza.</p>
+            </div>
+          </div> 
+
+          <div class="card-process hidden">    
+           <div class="process-img">
+            <img
+              src="img/process/step-5.jpeg"
+              class=""
+              alt="iPhone app
+            delivery screen"
+            />
+            </div>
+            <div class="process-text-container ">              
+            <p class = "process-number"> 6 </p>
+            <h3 class="process-title"> Lámpara UV </h3>
+            <p class="process-text"> La luz ultravioleta elimina bacterias, virus y otros microorganismos sin utilizar productos químicos, garantizando un agua segura para el consumo.</p>
+            </div>
+          </div> 
+
+          <div class="card-process hidden">    
+           <div class="process-img">
+            <img
+              src="img/process/step-6.jpeg"
+              class=""
+              alt="iPhone app
+            delivery screen"
+            />
+            </div>
+            <div class="process-text-container">              
+            <p class = "process-number"> 7 </p>
+            <h3 class="process-title"> Generador de Ozono </h3>
+            <p class="process-text"> El ozono (O₃) actúa como un potente agente oxidante que elimina bacterias, virus y otros microorganismos, además de contribuir a la desinfección de botellones y líneas de envasado sin dejar residuos químicos.</p>
+            </div>
+          </div> 
+
+          
+
+                          
+         
+          <button class="slider-btn slider-btn-right">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </button>
+
+          </div>
+         </div> 
+
+    </section>
+
+
+    <section class="section-featured">
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="medal-outline"></ion-icon>
+            <p class="feature-title">¿Es segura el agua?</p>
+            <p class="feature-text">
+              Nuestro proceso de filtración y desinfección garantiza agua limpia, segura y de excelente calidad para toda tu familia.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="star-outline"></ion-icon>
+            <p class="feature-title">¿Llegará a tiempo?</p>
+            <p class="feature-text">
+              Llevamos tus botellones hasta la puerta de tu hogar o negocio con un servicio puntual y confiable.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="accessibility-outline"
+            ></ion-icon>
+            <p class="feature-title">¿Puedo confiar en la empresa?</p>
+            <p class="feature-text">
+              Aplicamos estrictos controles de calidad y procesos de purificación para ofrecer agua que cumple con altos estándares sanitarios.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="shield-checkmark-outline"
+            ></ion-icon>
+            <p class="feature-title">¿Es fácil hacer un pedido?</p>
+            <p class="feature-text">
+              Solicita tus botellones en pocos minutos desde tu celular y recibe atención rápida y personalizada.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-map" id="map">
+      <div class="container">
+        <span class="subheading">Ubicación</span>
+        <h2 class="heading-secondary">Recarga en nuestro establecimiento</h2>
+
+        <div class="map-layout">
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4244.312731982037!2d-78.4379081!3d-0.3154047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5bd6610e4323b%3A0xe9b4223fe11d7ca7!2sAQUAR%20-%20Pilar%20de%20Vida!5e1!3m2!1ses!2sec!4v1785258875539!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+          <div class="location-card">
+            <h3>📍 AQUAR </h3>
+            <p>
+              Urbanización la Colina 
+              <br/>
+              calle Guayas. Lote 147
+              <br />
+              Sangolquí, Pichincha
+            </p>
+            <div class="location-info">
+              <p><strong>Teléfono</strong>
+                <br />
+                <br />098 458 7166</p>
+              <p><strong>Email</strong>
+                <br /><br />aquarpilardevida@gmail.com</p>
+              <p>
+                <strong>Horario</strong><br />
+                <br />
+                Lunes - Jueves <br />
+                
+                09H00 - 13H00<br />
+                14H00 - 19H00 <br />
+                <br />
+                Viernes <br />
+                09H00 - 13H00<br />
+                14H00 - 18H00 <br />
+                <br />
+                Sábados <br />
+                09h00-13h00<br />
+                14h00-16h00
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a
+  href="https://api.whatsapp.com/send?phone=593993681686"
+  class="whatsapp-btn"
+  target="_blank"
+  aria-label="Contactar por WhatsApp"
+>
+  <ion-icon name="logo-whatsapp"></ion-icon>
+</a>
+
+      
+    </main>
+
+    <footer class="footer" id="contact">
+
+      <div class="container grid grid--footer">
+
+        
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Omnifood logo" src="img/logo-sin-fondo.png" />
+          </a>
+
+          <div>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="https://api.whatsapp.com/send?phone=593993681686"
+                ><ion-icon class="social-icon" name="logo-whatsapp"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          </div>
+
+          
+          
+          <p class="copyright">
+            Copyright &copy; <span class="year">2026</span> by Aquarpili.
+            Todos los derechos reservados
+          </p>
+
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contáctanos</p>
+          <address class="contacts">
+            <p class="address">Urbanización la Colina </p>
+            <p>
+              <a class="footer-link" href="https://api.whatsapp.com/send?phone=593993681686"> +593 98 458 7166
+              <a />
+              <a class="footer-link" href="mailto:aquarpilardevida@gmail.com"
+                >aquarpilardevida@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Cuenta</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Crea una cuenta</a></li>
+            <li><a class="footer-link" href="#">Regístrate</a></li>
+            <li><a class="footer-link" href="#">Aplicación iOS </a></li>
+            <li><a class="footer-link" href="#">Aplicación Android</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Compañía</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Sobre Aquarpili</a></li>
+            <li><a class="footer-link" href="#">Trabaja con nostros</a></li>
+            <li><a class="footer-link" href="#">Socios</a></li>
+            <li><a class="footer-link" href="#">Carreras</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Recursos</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Directorio de Servicios </a></li>
+            <li><a class="footer-link" href="#">Centro de Ayuda</a></li>
+            <li><a class="footer-link" href="#">Términos y condiciones</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+      <footer class="diventax">
+      <p>© 2026 Aquarpili. Desarrollado por DiventaX</p>
+    </footer> 
+
+    <script src="js/slider.js"></script>
+
+  </body>
+</html>
