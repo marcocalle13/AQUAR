@@ -243,33 +243,6 @@
   font-weight: 600;
 }
 
-.meal-title {
-  font-size: 2.4rem;
-  color: #0c1726;
-  font-weight: 600;
-  margin-bottom: 3.2rem;
-}
-
-.meal-attributes {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.meal-attribute {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
-.meal-icon {
-  height: 2.4rem;
-  width: 2.4rem;
-  color: #47bcb1;
-}
-
 .meal-img {
   width: 100%;
 }
@@ -594,6 +567,25 @@
   will-change: transform;
 }
 
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #47bcb1;
+}
 /*==================================
 MAPA
 ==================================*/
