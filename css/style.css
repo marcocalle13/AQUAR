@@ -97,17 +97,13 @@
 
 .section-hero {
   height: 100vh;
-
   display: flex;
   align-items: center;
-
   background-color: #dcf6f3;
-  /* padding: 14.8rem 0 14.8rem 0; */
 
-  /* height: 100vh; */
   background-image:
     linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)),
-    url(../img/hero-min.png);
+    url(../img/hero-min.webp);
   background-size: cover;
 }
 
@@ -354,21 +350,6 @@
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
-}
-
-.pricing-plan--complete::after {
-  content: "Best value";
-  position: absolute;
-  top: 6%;
-  right: -18%;
-
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #333;
-  background-color: #ffd43b;
-  padding: 0.8rem 8rem;
-  transform: rotate(45deg);
 }
 
 .plan-header {
@@ -630,7 +611,9 @@ MAPA
 
 .location-card {
   background: white;
+
   padding: 4rem;
+  padding-top: 7rem;
   border-radius: 2rem;
 
   display: flex;
