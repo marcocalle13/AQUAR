@@ -745,3 +745,48 @@ MAPA
 .footer-link:active {
   color: #555;
 }
+
+/* Nosotros */
+
+.section-values {
+  padding: 10rem 0;
+}
+
+.value-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 8rem;
+  margin-top: 8rem;
+}
+
+.reverse .value-image {
+  order: 2;
+}
+
+.reverse .value-text {
+  order: 1;
+}
+
+.value-image img {
+  width: 100%;
+  display: block;
+  border-radius: 2rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.12);
+}
+
+.value-subtitle {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #0f3d56;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.value-text p {
+  font-size: 1.8rem;
+  color: #555;
+  line-height: 1.8;
+}
